@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Minimal onboarding app for cozy-stack-v2</title>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h1>Minimal onboarding app for cozy-stack-v2</h1>
+
+    <div id="no-token">
+      There is no registerToken. This link is invalid. Ask your sysadmin for a
+      new link.
+    </div>
+
+    <form id="register-form" action="/register" method="POST" >
+      <label for="password"> Enter your new password :
+        <input type="hidden" id="registerToken" name="registerToken" />
+        <input type="password" id="password" name="password" />
+      </label>
+
+      <input type="submit" />
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "description": "The minimal onboarding app to test cozy-stack",
+  "developer": {
+    "name": "Romain",
+    "url": "cozy.io"
+  },
+  "license": "MIT",
+  "name": "Mini Onboarding",
+  "permissions": {},
+  "slug": "onboarding",
+  "version": "0.1.0"
+}
